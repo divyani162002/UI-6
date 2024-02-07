@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;  
+}
+    body{
+        background-image: linear-gradient(75deg, #f8e4dc, #fbe8e6, #fcedef, #fcf2f7, #fcf8fc, #fcf8fc, #fcf8fc, #fcf8fc, #fcf2f7, #fcedef, #fbe8e6, #f8e4dc);
+    }
+    
+
+
+.nav{
+    width:100%;
+    height:80px;
+    display: flex;
+    padding-inline: 110px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+   
+}
+
+.nav h3{
+    font-size:25px;
+    color:rgb(255,0,0);
+}
+
+.nav ul {
+    width:500px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.nav ul li{
+    list-style: none;
+    font-size:17px;
+    font-weight: 500;
+    
+}
+
+.nav h4{
+    font-size:17px;
+    /* color: #f08267; */
+    color: #000;
+    font-weight: 600;
+   
+}
+
+.nav h4 i{
+    color:rgb(255,0,0);
+   
+}
+
+.hr{
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 8%, rgba(0, 0, 0, 0.26) 50%, rgba(248,228,220,0) 92%);
+}
+
+
+.her-sec{
+    width:100%;
+    height:600px;
+    display:flex;
+    padding-inline:100px;
+    
+}
+
+.img{
+    width:40%;
+    height:600px;
+    padding-top:30px;
+   
+}
+
+.img img{
+    width:500px;
+    height: 570px;
+}
+
+.text{
+    width:60%;
+    height:600px;
+    padding-block:30px;
+    
+}
+
+.text h2{
+    font-size:25px;
+    font-weight: 400;
+  color: rgb(251,202,170);
+}
+
+.text h2 span{
+    font-size: 25px;
+    font-weight:900;
+    color:#e5846b;
+}
+
+.text h1{
+    font-size:100px;
+    font-family: 'Caveat', cursive;
+    padding-left:100px;
+   
+}
+
+.text button{
+    width:300px;
+    height:60px;
+    border-radius: 50px;
+    border:none;
+    font-size:20px;
+    background-color: transparent;
+    border:1px solid black;
+    margin-left:100px;
+    margin-block:20px;
+}
+
+.box{
+    width:100%;
+    height:220px;
+    display: flex;  
+    align-items:center;
+    padding-inline: 100px;
+    /* padding-block: 100px; */
+    padding-bottom: 60px;
+    justify-content: space-between;  
+}
+
+.box-1{
+    width:65%;
+    height:220px;
+    padding-inline: 60px;
+    background-color:#e5846b;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-1{
+    width:60%;
+     
+}
+.text-1 h1{
+    font-size:40px;
+    color:white;
+}
+
+.text-1 h1 span{
+    font-weight: 100;
+}
+
+.text-2{
+    width:40%;
+    padding-top:25px;
+}
+
+.text-2 p{
+    color:white;
+    font-size:15px;
+    line-height:23px;
+}
+
+.text-2 button{
+    width:300px;
+    height:60px;
+    border:none;
+    font-size:23px;
+    background-color: transparent;
+    color:white;
+    font-weight: 400;
+    text-align: start;
+}   
+
+.box-2{
+    width:30%;
+    height:220px;
+    background-color: transparent;
+    display: flex;
+    align-items:center;
+    flex-direction: column;   
+}
+
+.bottle{
+    width:250px;
+    height:170px;
+    background-color:#e5846b;  
+}
+
+.bottle img{
+    width:200px;
+    height:296px;
+    position: relative;
+    top:-130px;
+    left:30px;
+}
+
+.box-2 h2{
+   color:#e5846b;
+   font-weight: 500;
+   padding-right: 105px;
+   padding-top:10px;
+}
+
+
+
+
+@media (max-width:768px){
+
+    .nav{
+        padding-inline:30px;
+        width:100%;
+        height:60px;
+    }
+
+    .nav{
+        width:100%;
+        height:60px;
+    }
+
+    .nav h3{
+        font-size:25px
+
+    }
+
+    .nav ul{
+        display:none;
+    }
+
+    .nav h4{
+        font-size:17px;
+    }
+
+    .hr{
+        transform: translateY(-20px);
+    }
+
+    .her-sec{
+        width:100%;
+        height:700px;
+        padding-inline:50px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;  
+    }
+        
+    .img{
+        width:100%;
+        height:350px;
+    }
+
+    .img img{
+        width:100%;
+        height:100%;
+    }
+
+    .text{
+        width:100%;
+        height:350px;
+        display:flex;
+        align-items:center;
+        
+        flex-direction: column;
+    }
+
+    .text h2{
+        font-size:30px;
+        text-align:center;      
+    }
+
+    .text h1{
+        font-size:50px;
+        text-align: center;
+        padding-left:00px;
+    }
+
+    .text button{
+        width:260px;
+        height:50px;
+        font-size:16px;
+        margin-left:0px;   
+    }
+
+    .box{
+        width:100%;
+        height:800px;
+        flex-direction: column;
+    }
+
+    .box-1{
+        width:100%;
+        height:300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .text-1{
+        width:100%;
+        
+    }
+    .text-1 h1{
+        font-size:30px;
+        text-align: center;   
+    }
+
+    .text-2 {
+        width:100%;
+        text-align: center;  
+    }
+
+    .text-2 button{
+        font-size:20px;
+        text-align: center;
+
+    }
+
+    .text-2{
+        width:100%;  
+    }
+
+    .text-2 h2{
+        text-align: center;
+        padding:0px;
+        margin-top:8px;
+
+    }
+    .bottle{
+        width:60%;
+    }
+
+    .bottle img{
+        width:70%;
+        height:295px;
+    }
+
+}
+
+
+@media (max-width:480px){
+    /* .main-container{
+        width:100%;
+        height:auto;
+      
+    } */
+
+    .nav{
+        width:100%;
+        height:60px;
+        padding-inline:20px;
+    }
+
+    .navh3{
+        font-size:22px
+
+    }
+
+    .nav ul{
+        display:none;
+    }
+
+    .nav h4{
+        font-size:17px;
+    }
+
+    .her-sec{
+        width:100%;
+        height:700px;
+        padding-inline:10px;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;  
+    }
+        
+    .img{
+        width:100%;
+        height:250px;
+    }
+
+    .img img{
+        width:100%;
+        height:100%;
+    }
+
+    .text{
+        width:100%;
+        height:300px;
+        display:flex;
+        align-items:center;
+        
+        flex-direction: column;
+    }
+
+    .text h2{
+        font-size:25px;
+        text-align:center;      
+    }
+
+    .text h1{
+        font-size:30px;
+        text-align: center;
+        padding-left:00px;
+    }
+
+    .text button{
+        width:200px;
+        height:40px;
+        font-size:16px;
+        margin-left:0px;   
+    }
+
+    .box{
+        width:100%;
+        height:900px;
+        flex-direction: column;
+    }
+    .box-1{
+        width:100%;
+        height:500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .text-1{
+        width:100%;
+        
+    }
+    .text-1 h1{
+        font-size:25px;
+        text-align: center; 
+        
+    }
+
+    .text-2 {
+        width:100%;
+        text-align: center;  
+    }
+
+    .text-2 button{
+        font-size:20px;
+        text-align:start;
+      
+
+    }
+
+    .box-2{
+        width:100%;  
+    }
+
+    .box-2 h2{
+        text-align: center;
+        padding:0px;
+        margin-top:8px;
+
+    }
+    .bottle{
+        width:60%;
+    }
+
+    .bottle img{
+        width:70%;
+        height:295px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
